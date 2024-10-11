@@ -1,36 +1,27 @@
 "use client";
-import React, { useState } from "react";
+import { usePathname } from "next/navigation";
 import HomeIcon from "../public/icons/HomeIcon";
 import ProfileIcon from "@/public/icons/ProfileIcon";
 import WorkIcon from "@/public/icons/WorkIcon";
 import SkillIcon from "@/public/icons/SkillIcon";
 import StudyIcon from "@/public/icons/StudyIcon";
-// import AboutIcon from "../public/icons/profile.svg";
-// import SkillIcon from "../public/icons/skill.svg";
-// import StudyIcon from "../public/icons/study.svg";
-// import WorkIcon from "../public/icons/work.svg";
 
 const menuItems = [
-  { name: "Home", href: "/", icon: <HomeIcon /> },
-  { name: "About", href: "/about", icon: <ProfileIcon /> },
-  { name: "Work", href: "/work", icon: <WorkIcon /> },
-  { name: "Study", href: "/study", icon: <StudyIcon /> },
-  { name: "Skill", href: "/skills", icon: <SkillIcon /> },
+  { name: "Home", href: "#home", icon: <HomeIcon /> },
+  { name: "About", href: "#about", icon: <ProfileIcon /> },
+  { name: "Work", href: "#work", icon: <WorkIcon /> },
+  { name: "Study", href: "#study", icon: <StudyIcon /> },
+  { name: "Skills", href: "#skills", icon: <SkillIcon /> },
 ];
 
-const Navbar = () => {
-  const [activeItem, setActiveItem] = useState<string>("Home");
 
-  const handleClick = (name: string) => {
-    setActiveItem(name);
-  };
+const Navbar = () => {
+  const pathname = usePathname();
+
   return (
     <nav className="bg-[#292f36] border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          href="https://flowbite.com/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
-        >
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://flowbite.com/docs/images/logo.svg"
             className="h-8"
@@ -69,14 +60,15 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <li key={item.name}>
                 <a
-                  href={item.href}
-                  onClick={() => handleClick(item.name)}
+                  href={`#${item.href}`} // update to link to section ID
                   className={`flex items-center py-2 px-3 ${
-                    activeItem === item.name
+                    pathname === `#${item.href}`
                       ? "text-white bg-teal-500 md:bg-transparent md:text-teal-500"
                       : "text-white md:hover:bg-transparent md:border-0 md:hover:text-teal-500 dark:text-white md:dark:hover:text-teal-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   }`}
-                  aria-current={activeItem === item.name ? "page" : undefined}
+                  aria-current={
+                    pathname === `#${item.href}` ? "page" : undefined
+                  }
                 >
                   {item.icon}
                   <span className="ml-2">{item.name}</span>
