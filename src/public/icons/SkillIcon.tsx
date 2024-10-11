@@ -9,9 +9,9 @@ const SkillIcon = () => (
     <path
       d="M9 8L5 11.6923L9 16M15 8L19 11.6923L15 16"
       stroke="#14B8A6"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

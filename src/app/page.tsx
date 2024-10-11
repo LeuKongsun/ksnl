@@ -1,12 +1,10 @@
+import Hero from "@/components/hero/Hero";
+
 export default function Home() {
   return (
-    <div>
+    <main className="max-w-screen-xl mx-auto mb-10">
       {/* Home Section */}
-      <section id="home" className="py-20">
-        <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
-        <p className="mt-4">This is the home section.</p>
-      </section>
-
+      <Hero />
       {/* About Section */}
       <section id="about" className="py-20 bg-gray-100">
         <h2 className="text-3xl font-bold">About Me</h2>
@@ -36,6 +34,6 @@ export default function Home() {
           Here are the skills I have acquired over the years.
         </p>
       </section>
-    </div>
+    </main>
   );
 }

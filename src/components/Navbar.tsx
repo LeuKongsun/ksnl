@@ -7,25 +7,25 @@ import SkillIcon from "@/public/icons/SkillIcon";
 import StudyIcon from "@/public/icons/StudyIcon";
 
 const menuItems = [
-  { name: 'Home', href: 'home', icon: <HomeIcon /> },
-  { name: 'About', href: 'about', icon: <ProfileIcon /> },
-  { name: 'Work', href: 'work', icon: <WorkIcon /> },
-  { name: 'Study', href: 'study', icon: <StudyIcon /> },
-  { name: 'Skills', href: 'skills', icon: <SkillIcon /> },
+  { name: "Home", href: "home", icon: <HomeIcon /> },
+  { name: "About", href: "about", icon: <ProfileIcon /> },
+  { name: "Work", href: "work", icon: <WorkIcon /> },
+  { name: "Study", href: "study", icon: <StudyIcon /> },
+  { name: "Skills", href: "skills", icon: <SkillIcon /> },
 ];
 
 const Navbar = () => {
-  const [activeSection, setActiveSection] = useState('home');
+  const [activeSection, setActiveSection] = useState("home");
 
   const handleSetActive = (section: string) => {
     setActiveSection(section);
     document.getElementById(section)?.scrollIntoView({
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
 
   return (
-    <nav className="bg-[#292f36] border-gray-200 dark:bg-gray-900">
+    <nav className="bg-[#292f36] border-gray-200 dark:bg-gray-900 text-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
@@ -55,8 +55,8 @@ const Navbar = () => {
             <path
               stroke="currentColor"
               stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M1 1h15M1 7h15M1 13h15"
             />
           </svg>
@@ -70,10 +70,12 @@ const Navbar = () => {
                   onClick={() => handleSetActive(item.href)} // handle click to set active section and smooth scroll
                   className={`flex items-center py-2 px-3 ${
                     activeSection === item.href
-                      ? 'text-white bg-teal-500 md:bg-transparent md:text-teal-500'
-                      : 'text-white md:hover:bg-transparent md:border-0 md:hover:text-teal-500 dark:text-white md:dark:hover:text-teal-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
+                      ? "bg-teal-500 md:bg-transparent md:text-teal-500"
+                      : "md:hover:bg-transparent md:border-0 md:hover:text-teal-500 md:dark:hover:text-teal-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   }`}
-                  aria-current={activeSection === item.href ? 'page' : undefined}
+                  aria-current={
+                    activeSection === item.href ? "page" : undefined
+                  }
                 >
                   {item.icon}
                   <span className="ml-2">{item.name}</span>
