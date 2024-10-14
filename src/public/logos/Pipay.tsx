@@ -3,8 +3,8 @@ const Pipay = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
-      width="80px"
-      height="20px"
+      width="60px"
+      height="30px"
       version="1.1"
       style={{
         shapeRendering: "geometricPrecision",

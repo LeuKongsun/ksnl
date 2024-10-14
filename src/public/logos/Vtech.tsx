@@ -8,7 +8,7 @@ const Vtech = () => {
       x="0px"
       y="0px"
       width="70px"
-      height="20px"
+      height="30px"
       viewBox="0 0 2337.2 615.3"
       xmlSpace="preserve"
     >

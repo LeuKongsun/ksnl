@@ -3,8 +3,8 @@ const Bikay = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
-      width="20px"
-      height="20px"
+      width="30px"
+      height="30px"
       viewBox="0 0 20500 14800"
     >
       <defs>

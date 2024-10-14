@@ -12,3 +12,12 @@ body {
   padding: 1rem;
   
 }
+
+.svg-logo {
+  filter: grayscale(100%); /* Make logo black and white */
+  transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.svg-logo:hover {
+  filter: grayscale(0%); /* Return to color on hover */
+}

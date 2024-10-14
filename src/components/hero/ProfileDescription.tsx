@@ -1,7 +1,5 @@
-interface ProfileDescriptionProps {
-  icon: JSX.Element;
-  text: string;
-}
+import { ProfileDescriptionProps } from "@/types/type";
+
 const ProfileDescription = (props: ProfileDescriptionProps) => {
   return (
     <p className="flex items-center">
