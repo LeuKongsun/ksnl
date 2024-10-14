@@ -14,8 +14,8 @@ const Vtech = () => {
     >
       <style type="text/css">
         {`
-            .st0{fill:#fff;}
-            .st1{fill:#fff;}
+            .st0{fill:#A62B1B;}
+            .st1{fill:#A87F2F;}
             .st2{fill:#450F0D;}
             .st3{fill:#FFFFFF;}
           `}
@@ -52,14 +52,14 @@ const Vtech = () => {
         <g>
           <g>
             <path
-            //   className="st0"
+              className="st0"
               d="M321.9,118.5L126,457.8h391.8L321.9,118.5z M321.9,215.3l106.2,183.9H215.7L321.9,215.3z"
             />
           </g>
           <g>
             <g>
               <polygon
-                // className="st1"
+                className="st1"
                 points="409,266.7 512.4,167.8 430.5,304"
               />
               <path
@@ -69,7 +69,7 @@ const Vtech = () => {
             </g>
             <g>
               <polygon
-                // className="st1"
+                className="st1"
                 points="240.5,359.1 269.6,308.6 315.9,355.7 371,303 400.4,354 317,492.8"
               />
               <path
@@ -79,7 +79,7 @@ const Vtech = () => {
             </g>
             <g>
               <polygon
-                // className="st1"
+                className="st1"
                 points="131.3,168.3 232.4,270.8 211.1,307.7"
               />
               <path
