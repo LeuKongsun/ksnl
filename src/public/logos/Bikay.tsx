@@ -3,9 +3,15 @@ const Bikay = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
-      width="30px"
-      height="30px"
       viewBox="0 0 20500 14800"
+      style={{
+        shapeRendering: "geometricPrecision",
+        textRendering: "geometricPrecision",
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+      }}
+      width="100%"
+      height="100%"
     >
       <defs>
         <style type="text/css">

@@ -3,8 +3,8 @@ const Metfone = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
-      width="70px"
-      height="30px"
+      width="100%"
+      height="100%"
       version="1.1"
       style={{
         shapeRendering: "geometricPrecision",

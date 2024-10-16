@@ -2,11 +2,13 @@ import Achievement from "@/components/achievement/Achievement";
 import Education from "@/components/education/Education";
 import Experiences from "@/components/experiences/Experiences";
 import Hero from "@/components/hero/Hero";
+import Skill from "@/components/skill/Skill";
 
 export default function Home() {
   return (
-    <main className="max-w-screen-xl mx-auto mb-10">
-      {/* Home Section */}
+    <main className="max-w-screen-lg mx-auto mb-10">
+      <div className="flex flex-col gap-10">
+        {/* Home Section */}
       <Hero />
       {/* Experiences Section */}
       <Experiences />
@@ -18,12 +20,8 @@ export default function Home() {
       <Achievement />
 
       {/* Skills Section */}
-      <section id="skills" className="py-20">
-        <h2 className="text-3xl font-bold">My Skills</h2>
-        <p className="mt-4">
-          Here are the skills I have acquired over the years.
-        </p>
-      </section>
+      <Skill />
+      </div>
     </main>
   );
 }

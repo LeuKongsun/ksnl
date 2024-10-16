@@ -8,10 +8,10 @@ import StudyIcon from "@/public/icons/StudyIcon";
 
 const menuItems = [
   { name: "Home", href: "home", icon: <HomeIcon /> },
-  { name: "About", href: "about", icon: <ProfileIcon /> },
-  { name: "Work", href: "work", icon: <WorkIcon /> },
-  { name: "Study", href: "study", icon: <StudyIcon /> },
-  { name: "Skills", href: "skills", icon: <SkillIcon /> },
+  { name: "Experience", href: "experience", icon: <ProfileIcon /> },
+  { name: "Education", href: "education", icon: <WorkIcon /> },
+  { name: "Achievement", href: "achievement", icon: <StudyIcon /> },
+  { name: "Skill", href: "skill", icon: <SkillIcon /> },
 ];
 
 const Navbar = () => {
@@ -26,10 +26,10 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#292f36] border-gray-200 dark:bg-gray-900 text-white">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
+            src="https://cdn-icons-png.flaticon.com/512/2603/2603105.png"
             className="h-8"
             alt="Flowbite Logo"
           />
