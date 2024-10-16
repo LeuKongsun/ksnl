@@ -1,3 +1,4 @@
+import Achievement from "@/components/achievement/Achievement";
 import Education from "@/components/education/Education";
 import Experiences from "@/components/experiences/Experiences";
 import Hero from "@/components/hero/Hero";
@@ -12,12 +13,9 @@ export default function Home() {
 
       {/* Education Section */}
       <Education />
-      
+
       {/* Study Section */}
-      <section id="study" className="py-20 bg-gray-100">
-        <h2 className="text-3xl font-bold">My Study</h2>
-        <p className="mt-4">Details about my education go here.</p>
-      </section>
+      <Achievement />
 
       {/* Skills Section */}
       <section id="skills" className="py-20">

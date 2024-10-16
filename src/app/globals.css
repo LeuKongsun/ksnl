@@ -21,3 +21,15 @@ body {
 .svg-logo:hover {
   filter: grayscale(0%); /* Return to color on hover */
 }
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flipped .flipper {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
