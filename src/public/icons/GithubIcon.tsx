@@ -1,8 +1,9 @@
-import React from "react";
+import { IconProps } from "@/types/type";
 
-const GithubIcon = () => {
+const GithubIcon : React.FC<IconProps> = ({className}) => {
   return (
     <svg
+      className={className}
       viewBox="0 -0.5 48 48"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

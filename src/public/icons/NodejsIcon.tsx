@@ -1,8 +1,10 @@
+import { IconProps } from '@/types/type'
 import React from 'react'
 
-const NodejsIcon = () => {
+const NodejsIcon : React.FC<IconProps> = ({className}) => {
   return (
     <svg
+      className={className}
       viewBox="-13 0 282 282"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMinYMin meet"

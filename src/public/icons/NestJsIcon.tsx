@@ -1,6 +1,9 @@
-const NestJsIcon = () => {
+import { IconProps } from "@/types/type"
+
+const NestJsIcon : React.FC<IconProps> = ({className}) => {
   return (
     <svg
+      className={className}
       viewBox="0 0 32 32"
       xmlns="http://www.w3.org/2000/svg"
       fill="#000000"

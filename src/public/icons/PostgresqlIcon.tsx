@@ -1,8 +1,9 @@
-import React from "react";
+import { IconProps } from "@/types/type";
 
-const PostgresqlIcon = () => {
+const PostgresqlIcon : React.FC<IconProps> = ({className}) => {
   return (
     <svg
+      className={className}
       viewBox="-4 0 264 264"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

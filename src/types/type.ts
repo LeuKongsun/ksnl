@@ -23,3 +23,13 @@ export interface ProfileDescriptionProps {
   icon: JSX.Element;
   text: string;
 }
+
+export interface IconProps {
+  className?: string;
+}
+
+export interface SkillGroupProps {
+  icons: React.FC<IconProps>[];
+  progressWidth: string;
+  iconCount: number;
+}

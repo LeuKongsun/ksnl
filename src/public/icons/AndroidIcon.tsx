@@ -1,8 +1,9 @@
-import React from "react";
+import { IconProps } from "@/types/type";
 
-const AndriodIcon = () => {
+const AndroidIcon : React.FC<IconProps> = ({className}) => {
   return (
     <svg
+      className={className}
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
@@ -38,4 +39,4 @@ const AndriodIcon = () => {
   );
 };
 
-export default AndriodIcon;
+export default AndroidIcon;
