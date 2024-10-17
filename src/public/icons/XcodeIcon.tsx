@@ -10,6 +10,8 @@ const XcodeIcon = () => {
         y1="114.165"
         x2="63.947"
         y2="13.784"
+        width="100%"
+        height="100%"
       >
         <stop offset="0" stopColor="#1578e4" />
         <stop offset="1" stopColor="#00c3f2" />

@@ -7,6 +7,8 @@ const NodejsIcon = () => {
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMinYMin meet"
       fill="#000000"
+      width="100%"
+      height="100%"
     >
       <g id="SVGRepo_iconCarrier">
         <g fill="#8CC84B">

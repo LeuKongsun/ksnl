@@ -8,6 +8,8 @@ const PostgresqlIcon = () => {
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid"
       fill="#000000"
+      width="100%"
+      height="100%"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g

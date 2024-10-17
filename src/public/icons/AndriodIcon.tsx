@@ -7,6 +7,8 @@ const AndriodIcon = () => {
       x="0px"
       y="0px"
       viewBox="0 0 48 48"
+      width="100%"
+      height="100%"
     >
       <path
         fill="#00c853"

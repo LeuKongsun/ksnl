@@ -2,7 +2,12 @@ import React from "react";
 
 const SpringBootIcon = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.1 97">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 97.1 97"
+      width="100%"
+      height="100%"
+    >
       <defs>
         <style>{`.cls-1{fill:#6db33f;}`}</style>
       </defs>
