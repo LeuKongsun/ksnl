@@ -63,7 +63,7 @@ const Hero = () => {
         <div className="flex flex-col p-4">
           <p className="text-blue-500">&lt;h1&gt;</p>
           <div className="text-4xl pl-8 ">
-            <h1>Hey 🖐️</h1>
+            <h1>Hey!! 🖐️</h1>
             <h1>I&apos;m Kevin Big L.</h1>
             <h1 className="text-teal-500">Full-stack Gabage Collector</h1>
           </div>
