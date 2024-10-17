@@ -1,9 +1,9 @@
 const Education = () => {
   return (
-    <section id="education" className="flex flex-col items-center text-white mt-4">
-      <h1 className="text-2xl text-teal-500 font-bold mb-4">EDUCATIONS</h1>
+    <section id="education" className="flex flex-col max-w-screen-md items-center text-white mt-4 mb-16">
+      <h1 className="text-2xl text-teal-500 font-bold mb-8">EDUCATIONS</h1>
 
-      <div className="p-8">
+      {/* <div className="p-8"> */}
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -64,7 +64,7 @@ const Education = () => {
             </p>
           </li>
         </ol>
-      </div>
+      {/* </div> */}
     </section>
   );
 };

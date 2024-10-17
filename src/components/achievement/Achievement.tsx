@@ -5,10 +5,10 @@ import React from "react";
 
 const Achievement = () => {
   return (
-    <section id='achievement' className="flex flex-col items-center text-white gap-4 mt-4">
-      <h1 className="text-2xl text-teal-500 font-bold">ACHIEVEMENTS</h1>
+    <section id='achievement' className="max-w-screen-md flex flex-col items-center text-white gap-6 mt-4 mb-16">
+      <h1 className="text-2xl text-teal-500 font-bold mb-8">ACHIEVEMENTS</h1>
 
-      <div className="max-w-full p-6 border border-gray-200 rounded-lg shadow">
+      <div className="max-w-full p-4 rounded-lg shadow-md shadow-teal-500">
         <div className="flex items-center gap-1 mb-4">
           <GoldIcon />
           <a href="#">
@@ -23,7 +23,7 @@ const Achievement = () => {
         </p>
       </div>
 
-      <div className="max-w-full p-6 border border-gray-200 rounded-lg shadow">
+      <div className="max-w-full p-4 rounded-lg shadow-md shadow-teal-500">
         <div className="flex items-center gap-1 mb-4">
           <SilverAwardIcon />
           <a href="#">
@@ -38,7 +38,7 @@ const Achievement = () => {
         </p>
       </div>
 
-      <div className="max-w-full p-6 border border-gray-200 rounded-lg shadow">
+      <div className="max-w-full p-4 rounded-lg shadow-md shadow-teal-500">
         <div className="flex items-center gap-1 mb-4">
           <CertificateIcon />
           <a href="#">

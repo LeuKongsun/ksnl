@@ -6,21 +6,23 @@ import Skill from "@/components/skill/Skill";
 
 export default function Home() {
   return (
-    <main className="max-w-screen-lg mx-auto mb-10">
-      <div className="flex flex-col gap-10">
+    <main className="max-w-screen-lg mx-auto">
+      <div className="flex flex-col items-center pt-16">
         {/* Home Section */}
-      <Hero />
-      {/* Experiences Section */}
-      <Experiences />
+        <Hero />
+        {/* Experiences Section */}
+        <div className="p-8 md:p-0">
+          <Experiences />
 
-      {/* Education Section */}
-      <Education />
+          {/* Education Section */}
+          <Education />
 
-      {/* Study Section */}
-      <Achievement />
+          {/* Study Section */}
+          <Achievement />
 
-      {/* Skills Section */}
-      <Skill />
+          {/* Skills Section */}
+          <Skill />
+        </div>
       </div>
     </main>
   );

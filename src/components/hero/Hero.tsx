@@ -22,12 +22,12 @@ const profileSkills = ["Back-end", "Front-end", "Mobile app"];
 
 const Hero = () => {
   return (
-    <section id="home" className="flex flex-col justify-center items-center text-white h-screen md:p-4">
+    <section id="home" className="flex flex-col justify-center items-center text-white mt-10 md:mt-0 md:h-screen">
       <div className="flex gap-10 flex-col md:flex-row justify-between">
         <div className="flex justify-center">
           <div>
             <div className="gradient-flow text-white rounded p-1">
-              <div className="flex flex-col w-full bg-[#292f36] text-white rounded p-10">
+              <div className="flex flex-col w-full bg-[#292f36] text-white rounded px-10 py-16">
                 <img
                   src="https://i.pinimg.com/280x280_RS/f2/ec/7f/f2ec7f84d8e65b94824896bc80edb52b.jpg"
                   alt="profile"
@@ -64,17 +64,17 @@ const Hero = () => {
             <h1>I&apos;m Kevin Big L.</h1>
             <h1 className="text-teal-500">Full-stack Gabage Collector</h1>
           </div>
-          <p className="text-blue-500 mb-5">&lt;/h1&gt;</p>
+          <p className="text-blue-500 mb-10">&lt;/h1&gt;</p>
           <p className="text-blue-500">&lt;p&gt;</p>
           <p className="text-sm pl-8">
             A software engineer designs, develops, and maintains software
             systems, using programming and engineering principles to create
             efficient and reliable applications.
           </p>
-          <p className="text-blue-500 mb-5">&lt;/p&gt;</p>
+          <p className="text-blue-500">&lt;/p&gt;</p>
         </div>
       </div>
-      <div className="text-white absolute bottom-0"><DownArrow /></div>
+      <div className="text-white absolute bottom-0 hidden md:block"><DownArrow /></div>
     </section>
   );
 };

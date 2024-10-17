@@ -50,3 +50,21 @@ body {
   background-size: 200% 200%;
   animation: gradient-flow 3s ease infinite;
 }
+
+@keyframes water-stream {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.water-stream {
+  background: linear-gradient(90deg, rgb(0, 255, 149), rgb(239, 4, 4), rgb(91, 13, 247));
+  background-size: 200% 100%;
+  animation: water-stream 2s ease-in-out infinite;
+}

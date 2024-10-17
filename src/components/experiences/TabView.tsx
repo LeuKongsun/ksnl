@@ -57,7 +57,7 @@ const TabView: React.FC = () => {
         </ul>
       </div>
 
-      <div className="max-w-2xl">
+      <div className="max-w-screen-md mt-4 h-96">
         {" "}
         {/* Set max and min width here */}
         {tabContent[activeTab]}
