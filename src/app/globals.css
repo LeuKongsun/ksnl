@@ -64,7 +64,7 @@ body {
 }
 
 .water-stream {
-  background: linear-gradient(90deg, rgb(0, 255, 149), rgb(239, 4, 4), rgb(91, 13, 247));
+  background: linear-gradient(90deg, rgb(0, 255, 149), rgb(28, 4, 239), rgb(247, 13, 13));
   background-size: 200% 100%;
   animation: water-stream 2s ease-in-out infinite;
 }

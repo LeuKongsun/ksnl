@@ -27,8 +27,8 @@ const Skill = () => {
             <SpringBootIcon />
             <AndriodIcon />
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-            <div className="water-stream h-1.5 rounded-full dark:bg-blue-500 w-10/12"></div>
+          <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
+            <div className="water-stream h-1 rounded-full dark:bg-blue-500 w-10/12"></div>
           </div>
         </div>
 
@@ -40,8 +40,8 @@ const Skill = () => {
             <ReactJsIcon />
             <NextjsIcon />
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-            <div className="water-stream h-1.5 rounded-full dark:bg-blue-500 w-9/12"></div>
+          <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
+            <div className="water-stream h-1 rounded-full dark:bg-blue-500 w-9/12"></div>
           </div>
         </div>
 
@@ -52,8 +52,8 @@ const Skill = () => {
             <FlutterIcon />
             <XcodeIcon />
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-            <div className="water-stream h-1.5 rounded-full dark:bg-blue-500 w-7/12"></div>
+          <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
+            <div className="water-stream h-1 rounded-full dark:bg-blue-500 w-7/12"></div>
           </div>
         </div>
 
@@ -63,8 +63,8 @@ const Skill = () => {
             <OracleDbIcon />
             <MongoDbIcon />
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-            <div className="water-stream h-1.5 rounded-full dark:bg-blue-500 w-9/12"></div>
+          <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
+            <div className="water-stream h-1 rounded-full dark:bg-blue-500 w-9/12"></div>
           </div>
         </div>
 
@@ -74,8 +74,8 @@ const Skill = () => {
             <DockerIcon />
             <Pm2Icon />
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-            <div className="water-stream h-1.5 rounded-full dark:bg-blue-500 w-9/12"></div>
+          <div className="w-full bg-gray-200 rounded-full h-1 mb-4 dark:bg-gray-700">
+            <div className="water-stream h-1 rounded-full dark:bg-blue-500 w-9/12"></div>
           </div>
         </div>
       </div>

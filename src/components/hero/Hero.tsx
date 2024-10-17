@@ -22,7 +22,10 @@ const profileSkills = ["Back-end", "Front-end", "Mobile app"];
 
 const Hero = () => {
   return (
-    <section id="home" className="flex flex-col justify-center items-center text-white mt-10 md:mt-0 md:h-screen">
+    <section
+      id="home"
+      className="flex flex-col justify-center items-center text-white mt-10 md:mt-0 md:h-screen"
+    >
       <div className="flex gap-10 flex-col md:flex-row justify-between">
         <div className="flex justify-center">
           <div>
@@ -67,14 +70,18 @@ const Hero = () => {
           <p className="text-blue-500 mb-10">&lt;/h1&gt;</p>
           <p className="text-blue-500">&lt;p&gt;</p>
           <p className="text-sm pl-8">
-            A software engineer designs, develops, and maintains software
-            systems, using programming and engineering principles to create
-            efficient and reliable applications.
+            As a dedicated leader in technology, I guide teams toward innovative
+            solutions and project success. With a strong foundation as a
+            software engineer, I design, develop, and maintain software systems,
+            applying engineering principles to create efficient and reliable
+            applications.
           </p>
           <p className="text-blue-500">&lt;/p&gt;</p>
         </div>
       </div>
-      <div className="text-white absolute bottom-0 hidden md:block"><DownArrow /></div>
+      <div className="text-white absolute bottom-0 hidden md:block">
+        <DownArrow />
+      </div>
     </section>
   );
 };

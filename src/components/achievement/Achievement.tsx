@@ -18,7 +18,7 @@ const Achievement = () => {
           </a>
         </div>
         <p className="mb-3 font-normal text-gray-500">
-          I have lead a team of 5, and earned the best team award, Spring boot
+          I have lead a team of 5, and earned the best team award, Backend Spring boot
           project.
         </p>
       </div>
