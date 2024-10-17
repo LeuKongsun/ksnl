@@ -28,13 +28,13 @@ const TabView: React.FC = () => {
 
   return (
     <div>
-      <div className="border-b border-gray-200 dark:border-gray-700">
+      <div className="border-b border-gray-200">
         <ul className="flex flex-wrap justify-between -mb-px font-medium text-center text-gray-400 max-w-screen-lg">
           {tabs.map(({ name, component }) => (
             <li className="me-2" key={name}>
               <button
                 onClick={() => setActiveTab(name)}
-                className={`inline-flex items-center justify-center border-b-2 rounded-t-lg w-20 h-10 p-2 md:w-28 md:h-14 ${
+                className={`inline-flex items-center justify-center border-b-2 rounded-t-lg w-16 h-8 pb-2 md:w-28 md:h-14 ${
                   activeTab === name
                     ? "text-blue-600 border-blue-600"
                     : "border-transparent hover:text-gray-600 hover:border-gray-300 svg-logo"
@@ -57,7 +57,7 @@ const TabView: React.FC = () => {
         </ul>
       </div>
 
-      <div className="max-w-screen-md mt-4 h-96">
+      <div className="max-w-screen-md mt-4 md:h-96">
         {" "}
         {/* Set max and min width here */}
         {tabContent[activeTab]}

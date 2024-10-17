@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="flex justify-center">
           <div>
             <div className="gradient-flow text-white rounded p-1">
-              <div className="flex flex-col w-full bg-[#292f36] text-white rounded px-10 py-16">
+              <div className="flex flex-col w-full bg-[#292f36] text-white rounded px-4 md:px-10 py-16">
                 <img
                   src="https://i.pinimg.com/280x280_RS/f2/ec/7f/f2ec7f84d8e65b94824896bc80edb52b.jpg"
                   alt="profile"

@@ -6,6 +6,8 @@ const JavaIcon = () => {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 511.998 511.998"
       fill="#000000"
+      width="100%"
+      height="100%"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
