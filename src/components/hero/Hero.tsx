@@ -23,8 +23,8 @@ const profileSkills = ["Back-end", "Front-end", "Mobile app"];
 const Hero = () => {
   return (
     <section
-      id="home"
-      className="flex flex-col justify-center items-center text-white mt-10 md:mt-0 md:h-screen"
+      id="profile"
+      className="flex flex-col justify-center items-center text-white pt-44 -mt-24 md:h-screen sm:p-4 md:pb-10 md:mb-10"
     >
       <div className="flex gap-10 flex-col md:flex-row justify-between">
         <div className="flex justify-center">
@@ -62,14 +62,14 @@ const Hero = () => {
         </div>
         <div className="flex flex-col p-4">
           <p className="text-blue-500">&lt;h1&gt;</p>
-          <div className="text-4xl pl-8 ">
+          <div className="text-4xl pl-8 sm:text-2xl lg:text-4xl">
             <h1>Hey!! 🖐️</h1>
             <h1>I&apos;m Kevin Big L.</h1>
             <h1 className="text-teal-500">Full-stack Gabage Collector</h1>
           </div>
           <p className="text-blue-500 mb-10">&lt;/h1&gt;</p>
           <p className="text-blue-500">&lt;p&gt;</p>
-          <p className="text-sm pl-8">
+          <p className="text-sm pl-8 sm:text-xs lg:text-sm">
             As a dedicated leader in technology, I guide teams toward innovative
             solutions and project success. With a strong foundation as a
             software engineer, I design, develop, and maintain software systems,

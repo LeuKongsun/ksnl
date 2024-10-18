@@ -1,21 +1,21 @@
 "use client";
 import { useState } from "react";
-import HomeIcon from "../public/icons/HomeIcon";
 import ProfileIcon from "@/public/icons/ProfileIcon";
 import WorkIcon from "@/public/icons/WorkIcon";
 import SkillIcon from "@/public/icons/SkillIcon";
 import StudyIcon from "@/public/icons/StudyIcon";
+import AchievementIcon from "@/public/icons/AchievementIcon";
 
 const menuItems = [
-  { name: "Home", href: "home", icon: <HomeIcon /> },
-  { name: "Experience", href: "experience", icon: <ProfileIcon /> },
-  { name: "Education", href: "education", icon: <WorkIcon /> },
-  { name: "Achievement", href: "achievement", icon: <StudyIcon /> },
+  { name: "Profile", href: "profile", icon: <ProfileIcon /> },
+  { name: "Experience", href: "experience", icon: <WorkIcon /> },
+  { name: "Education", href: "education", icon: <StudyIcon /> },
+  { name: "Achievement", href: "achievement", icon: <AchievementIcon /> },
   { name: "Skill", href: "skill", icon: <SkillIcon /> },
 ];
 
 const Navbar = () => {
-  const [activeSection, setActiveSection] = useState("home");
+  const [activeSection, setActiveSection] = useState("profile");
 
   const handleSetActive = (section: string) => {
     setActiveSection(section);

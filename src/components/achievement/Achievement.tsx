@@ -5,7 +5,7 @@ import React from "react";
 
 const Achievement = () => {
   return (
-    <section id='achievement' className="max-w-screen-md flex flex-col items-center text-white gap-6 mt-4 mb-16">
+    <section id='achievement' className="max-w-screen-md flex flex-col items-center text-white gap-6 mt-4 mb-16 pt-24 -mt-24">
       <h1 className="text-2xl text-teal-500 font-bold mb-8">ACHIEVEMENTS</h1>
 
       <div className="max-w-full p-4 rounded-lg shadow-md shadow-teal-500">
