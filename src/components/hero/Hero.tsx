@@ -1,3 +1,4 @@
+'use client';
 import WorkIcon from "@/public/icons/WorkIcon";
 import ProfileDescription from "./ProfileDescription";
 import ProfileSkill from "./ProfileSkill";
@@ -51,11 +52,22 @@ const Hero = () => {
                     />
                   ))}
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-3 mb-4">
                   {profileSkills.map((profileSkill, index) => (
                     <ProfileSkill key={index} skill={profileSkill} />
                   ))}
                 </div>
+                <button
+                  type="button"
+                  className="text-white rounded-full border border-teal-500 py-2 hover:border-teal-300"
+                  style={{
+                    boxShadow:
+                      "0 0 5px rgba(20, 184, 166, 0.7), 0 0 10px rgba(20, 184, 166, 0.5)",
+                  }}
+                  onClick={() => alert("I'm kidding 🤪")}
+                >
+                  Download CV
+                </button>
               </div>
             </div>
           </div>

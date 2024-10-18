@@ -38,7 +38,7 @@ const Navbar = () => {
           </span>
         </a>
         <div className="hidden md:flex w-full md:w-auto">
-          <ul className="font-medium flex space-x-8">
+          <ul className="font-medium flex">
             {menuItems.map((item) => (
               <li key={item.name}>
                 <a
@@ -47,7 +47,7 @@ const Navbar = () => {
                   className={`flex items-center py-2 px-3 ${
                     activeSection === item.href
                       ? "text-teal-500"
-                      : "md:hover:bg-transparent md:border-0 md:hover:text-teal-500 dark:hover:bg-gray-700 dark:hover:text-white"
+                      : "md:border-0 md:hover:text-teal-500"
                   }`}
                   aria-current={
                     activeSection === item.href ? "page" : undefined
