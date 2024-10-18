@@ -99,11 +99,16 @@ const Skill: React.FC = () => {
           iconCount={3}
         />
       </div>
-      <Image
-        src={Programmer}
-        alt="programmer"
-        className="rounded self-center mb-4"
-      />
+      <div className="text-center self-center mb-4 md:mb-10">
+        <Image
+          src={Programmer}
+          alt="programmer"
+          className="rounde"
+          width={300}
+          height={300}
+        />
+        <p className="text-white text-green-500">Kevin is cooking</p>
+      </div>
     </section>
   );
 };
