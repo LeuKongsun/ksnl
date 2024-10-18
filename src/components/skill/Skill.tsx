@@ -103,7 +103,6 @@ const Skill: React.FC = () => {
         <Image
           src={Programmer}
           alt="programmer"
-          className="rounde"
           width={300}
           height={300}
         />
