@@ -107,7 +107,7 @@ const Skill: React.FC = () => {
           width={300}
           height={300}
         />
-        <p className="text-white text-green-500">Kevin is cooking</p>
+        <p className="text-green-500">Kevin is cooking</p>
       </div>
     </section>
   );
