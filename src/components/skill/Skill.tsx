@@ -105,6 +105,7 @@ const Skill: React.FC = () => {
           alt="programmer"
           width={300}
           height={300}
+          loading="lazy"
         />
         <p className="text-green-500">Kevin is cooking</p>
       </div>
