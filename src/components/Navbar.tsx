@@ -34,7 +34,7 @@ const Navbar = () => {
             alt="Flowbite Logo"
           />
           <span className="hidden md:block self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Gabage
+            KSNL.me 🤨
           </span>
         </a>
         <div className="hidden md:flex w-full md:w-auto">

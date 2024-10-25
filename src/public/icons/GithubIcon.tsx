@@ -1,6 +1,6 @@
 import { IconProps } from "@/types/type";
 
-const GithubIcon : React.FC<IconProps> = ({className}) => {
+const GithubIcon : React.FC<IconProps> = ({className, fill}) => {
   return (
     <svg
       className={className}
@@ -32,7 +32,7 @@ const GithubIcon : React.FC<IconProps> = ({className}) => {
           <g
             id="Color-"
             transform="translate(-700.000000, -560.000000)"
-            fill="#3E75C3"
+            fill={fill || "#3E75C3"}
           >
             {" "}
             <path

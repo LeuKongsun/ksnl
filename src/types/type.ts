@@ -26,6 +26,7 @@ export interface ProfileDescriptionProps {
 
 export interface IconProps {
   className?: string;
+  fill?: string;
 }
 
 export interface SkillGroupProps {

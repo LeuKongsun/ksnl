@@ -10,7 +10,6 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;
-  
 }
 
 .svg-logo {
@@ -33,22 +32,49 @@ body {
 .backface-hidden {
   backface-visibility: hidden;
 }
-@keyframes gradient-flow {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
+
+.card-frame {
+  margin: 0 auto;
+  padding: 2em;
+  background: #1c1f2b;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
 }
 
-.gradient-flow {
-  background: linear-gradient(180deg, rgb(0, 255, 179), rgba(75, 0, 130, 1));
-  background-size: 200% 200%;
-  animation: gradient-flow 3s ease infinite;
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.card-frame::after, .card-frame::before {
+  content: "";
+  position: absolute;
+  height: calc(100% + 3px); /* Adjust height to include padding */
+  width: calc(100% + 3px); /* Adjust width to include padding */
+  background: conic-gradient(from var(--angle), #ff4545, #00ff99,#006aff,#ff0095,#ff4545); /* Use conic gradient */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the border */
+  z-index: -1; /* Keep it behind the card frame */
+  border-radius: 10px; /* Ensure rounded corners */
+  padding: 5px; /* Add padding to show the gradient as a border */
+  animation: 3s spin linear infinite;
+}
+
+.card-frame::before {
+  filter: blur(1.5em);
+  opacity: 0.5;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
 }
 
 @keyframes water-stream {
@@ -64,7 +90,12 @@ body {
 }
 
 .water-stream {
-  background: linear-gradient(90deg, rgb(0, 255, 149), rgb(28, 4, 239), rgb(247, 13, 13));
+  background: linear-gradient(
+    90deg,
+    rgb(0, 255, 149),
+    rgb(28, 4, 239),
+    rgb(247, 13, 13)
+  );
   background-size: 200% 100%;
   animation: water-stream 2s ease-in-out infinite;
 }
