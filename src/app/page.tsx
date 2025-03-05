@@ -7,7 +7,7 @@ import Skill from "@/components/skill/Skill";
 export default function Home() {
   return (
     <main className="max-w-screen-lg mx-auto">
-      <div className="flex flex-col items-center pt-16">
+      <div className="flex flex-col items-center pt-24 sm:pt-56 md:pt-40">
         {/* Home Section */}
         <Hero />
         {/* Experiences Section */}
