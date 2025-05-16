@@ -87,7 +87,7 @@ const Hero = () => {
           <p className="text-blue-500">&lt;h1&gt;</p>
           <div className="text-4xl pl-8 sm:text-2xl lg:text-4xl">
             <h1>Hey!! 🖐️</h1>
-            <h1>I&apos;m Kongsun</h1>
+            <h1>I&apos;m Kongsun <span className="text-red-600">[Kevin]</span></h1>
             <h1 className="text-teal-500">a Software Engineer</h1>
           </div>
           <p className="text-blue-500 mb-10">&lt;/h1&gt;</p>
